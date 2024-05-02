@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        body{ 
+  margin: 0;
+  padding: 0;
+  background: url(./assets/img/pero.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: rgb(8, 16, 65);
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.mascota{
+  margin: 10px 15px;
+  padding: 15px 50px;
+  background-color: rgb(16, 160, 185);
+}
+input[type=text], input[type=email],  textarea   {
+  width: 25%;
+  padding: 5px 20px;
+  margin: 5px;
+  background-color: rgb(248, 252, 251);
+}
+select, input[type=number]{
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: rgb(234, 200, 170);
+
+}
+input[type=submit],input[type=reset]{
+  background-color: rgb(10, 10, 10);
+  margin: 5px 10px;
+  padding: 5px 30px;
+  color: aliceblue;
+  border: 2px solid #ccc;
+border-radius: 7px;
+}
+label{
+  font-weight: 900;
+}
+
+    </style>
+  </head>
+  <body>
+   
+    <div class="caja">
+    <header>
+      <h1>REGISTRO DE MASCOTA</h1>
+    </header>
+     <section>
+      <form action="">
+        <label for="">NOMBRE </label>
+        <input
+          type="text"
+          placeholder="nombre de la mascota"
+          size="15"
+          maxlength="15"
+        /> 
+        <label for="">ESPECIE</label>
+        <input type="radio" name="ESTERILIZACION" />Perro
+        <input type="radio" name="ESTERILIZACION" />Gato
+        <label for="">RAZA</label>
+        <input
+          type="text"
+          placeholder="nombre de la mascota"
+          size="15"
+          maxlength="15"
+        /> 
+        <br>
+        <label for="">SEXO</label>
+        
+        <input type="radio" name="gen" />macho
+        <input type="radio" name="gen" />hembra <br />
+        <br />
+        <label for="">ESTERILIZACION</label>
+        <input type="radio" name="ESTERILIZACION" />SI
+        <input type="radio" name="ESTERILIZACION" />NO <br />
+        <label for="">AÑO DE NACIMIENTO</label>
+        <input type="date" /><br>
+        <label for="">MODO DE OBTENCIÓN</label>
+        <input type="radio" name="ESTERILIZACION" />Recogido
+        <input type="radio" name="ESTERILIZACION" />Reubicación
+        <input type="radio" name="ESTERILIZACION" />Regalo
+        <input type="radio" name="ESTERILIZACION" />Nacido en casa
+        <input type="radio" name="ESTERILIZACION" />Comprado <br>
+        <p>Si la mascota es adoptada marque recogido o reubicado</p>
+        <label for="">RAZON DE TENDENCIA</label>
+        <input type="radio" name="ESTERILIZACION" />Compañia
+        <input type="radio" name="ESTERILIZACION" />Asistencia
+        <input type="radio" name="ESTERILIZACION" />Terapia
+        <input type="radio" name="ESTERILIZACION" />Trabajo
+        <input type="radio" name="ESTERILIZACION" />Seguridad
+        <input type="radio" name="ESTERILIZACION" />Deporte
+        <input type="radio" name="ESTERILIZACION" />Exposición
+        <input type="radio" name="ESTERILIZACION" />Reproducción 
+        <input type="radio" name="ESTERILIZACION" />Caza <br>
+        <h1>DATOS MÉDICOS VETERINARIOS</h1>
+        <P>en el caso del tipo procedimiento, verificación los datos puestos por un veterinario</P>
+        <label for="">NOMBRES</label>
+        <input
+          type="text"
+          placeholder="nombre"
+          size="20"
+          maxlength="20"
+        />
+        <label for="">APELLIDOS</label>
+        <input
+          type="text"
+          placeholder="nombre"
+          size="30"
+          maxlength="30"
+        />
+        <label for="">RUT:</label>
+        <input type="radio" name="ESTERILIZACION" />Medico Veterinario
+        <input type="radio" name="ESTERILIZACION" />Tecnico Veterinario <br>
+        <label for="">COMUNA</label><br />
+        <input type="tel" /><br>
+        <label for="">FECHA DE PROCEDIMIENTO</label>
+        <input
+          type="date"
+        />
+        <textarea name="description" rows="10" cols="30"> firma y timbre </textarea><br />
+      
+        <input type="submit" value="registro" />
+        <input type="reset" value="limpiar" />
+      </form>
+    </section>
+    </div>
+  </body>
+</html>

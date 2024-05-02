@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        *{
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+.imagen{
+    background-color: chocolate;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    padding: 5px;
+}
+.imagen h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(253, 251, 251);
+}
+.imagen h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.imagen hr{
+    width: 20%
+}
+.imagen a {
+    padding-left: 100px;
+}
+h1{
+    color: #4f71e0;
+}
+#btn-menu {
+    display: none;
+}
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+.menu li {
+    text-align: right;
+
+}
+.menu li:hover {
+    background: rgba(80, 124, 207, 0.3);
+}
+.menu li a {
+    display: block;
+    padding: 15px;
+}
+
+@media (max-width:600px) {
+    header label {
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        background: #ffffff;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+    #btn-menu:checked ~ .menu  {
+        margin: 0;
+
+    }
+}
+.buton {
+    color: rgb(0, 0, 0);
+    background-color: chocolate;
+    width: 30%;
+    height: 60px;
+    margin: 20x;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+.divi{
+    background-color: #fff;
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    padding-left: 35px;
+
+}
+.divi h1{
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(12, 11, 11);
+}
+.divi hr{
+    width: 30%;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CENTRO DE RESCATE <br>
+        ANIMAL LAIKA</h1>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="./assets/img/icono.png" height="40px" alt=""></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html">Requisito</a></li>
+                <li><a href="menu4.html">Preguntas Frecuentes</a></li>
+                <li><a href="menu2.html">Consultas</a></li>
+                <li><a href="">Mis solicitudes</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    <main>
+        <div class="imagen">
+            <h1>Ingreso al Registro Nacional de <br>
+            Tenencia Responsable</h1><br>
+            <hr>
+                <h2>Seleccione la forma en que quiere ingresar al sistema:</h2>
+        </div>
+        <br><br>
+        <center>
+            <img src="./assets/img/can.avif" height="150px" alt="">
+        </center>
+        <div class="divi">
+            <h3>Ingrese con Cédula de Identidad</h3>
+            <p>Puedes entrar digitando tu número de RUN <br>y el número de documento/serie de la cédula de identidad, que se indica en el documento en sí.</p>
+            <a href="menu3.html"><button class="buton" style='font-size:18px'><i class='fas fa-paw'></i>  Ingresar</button></a>
+        </div>
+    </main>
+</body>
+</html>

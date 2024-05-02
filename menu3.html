@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+    background-image: url(./assets/img/adopta\ copy.jpg);
+}
+.caja{
+    display: flex;
+    justify-content: center;
+}
+.conteiner{
+    padding: 50px;
+    background-color: white;
+    border: 20px solid rgb(240, 237, 237);
+    width: 400px;
+    height: 550px;
+    border-radius: 1px;
+    box-shadow: 5px 10px 8px #888888;
+}
+text h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: normal;
+}
+.text h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: normal;
+}
+.secction{ 
+    padding: 20px;
+}
+.boton{
+    display: flex;
+    width: 100%;
+    height: min-content;
+    border: 2px solid #ded5d5;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration:  none;
+    color: inherit;
+}
+.google{
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+}
+.boton p{
+    align-content: baseline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+a:hover {
+    background-color: rgb(153, 181, 224);
+}
+.lineas {
+    display: flex;
+    align-items: center
+}
+.lineas hr {
+    width: 50%;
+    background-color: rgb(221, 218, 218);
+}
+.lineas > div {
+    padding: 0 10px;
+}
+.contenido {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #ded5d5;
+    font-size: 18px;
+}
+.buton {
+    color: aliceblue;
+    background-color: #ce5611;
+    width: 100%;
+    height: 30ps;
+    border-top: 20px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+</section>
+<div class="caja">
+    <section class="conteiner">
+        <center>
+        <div class="logo">
+        <img src="./assets/img/boli.png" height="50px" class="img">
+        <p>BOLIVIA</p>
+        </div>
+        <div class="text">
+         <h2>INGRESAR CON CEDULA DE IDENTIDAD</h2>
+        </div>
+        </center>
+        <br/>
+        <section class="secction">
+            <form class="formulario">
+                <input type="text" placeholder="Ingrese su cedula de identidad" class="contenido" maxlength="8">
+            <input type="text" placeholder="Ingrese de que ciudad es usted" class="contenido">
+            
+            <div class="lineas">
+                <hr>
+                <div>o</div>
+                <hr>
+            </div>
+            
+            <br> 
+            <form action="">
+                <center>
+                <input type="checkbox" placeholder="no soy un robot">No soy un robot
+                <label for=""><img src="./assets/img/robot-removebg-preview.png" width="100px"></label>
+                </center> 
+            </form>   <br>
+            
+            
+                <button class="buton" onclick='captura()'>Registrarse</button>
+            </form>
+        </section>
+    </section>
+</body>
+</html>

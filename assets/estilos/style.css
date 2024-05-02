@@ -1,0 +1,229 @@
+*{
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+    padding-left: 500px;
+}
+.boli{
+    padding-left: 70px;
+    border: 100px;
+    margin-bottom: 0px;
+    width: 250px;
+    height: 35px;
+}
+.nacional{
+    width: 600px;
+    margin-left: 10px;
+    font-size: 50px;
+}
+.nacional hr{
+    width: 60%;
+    margin-left: 100px;
+}
+.nacional h4{
+    font-size: 20px;
+}
+.imagen{
+    background-image: url(adop.jpg);
+    text-align: left;
+    height: 700px;
+    width: 100%;
+    padding: 20px;
+}
+.imagen h1 {
+    text-align: left;
+    margin-top: 100px;
+    color: rgb(253, 251, 251);
+    padding-left: 100px;
+    margin-top: 60px;
+}
+.imagen h3 {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+}
+.imagen h4 {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+}
+.imagen hr{
+    color: white;
+    width: 70%;
+}
+.imagen a {
+    padding-left: 100px;
+}
+h1{
+    color: #4f71e0;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-right: 200px;
+}
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+.divi{
+    background-color: azure;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+
+
+}
+.divi h1{
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(12, 11, 11);
+}
+.divi hr{
+    width: 30%;
+    color: black;
+    margin-left: 450px;
+}
+.buton {
+    color: rgb(255, 255, 255);
+    background-color: chocolate;
+    width: 30%;
+    height: 60px;
+    margin: 20x;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+.caja{
+    background-color: chocolate;
+    text-align: center;
+    height: 350x;
+    padding: 50px;
+}
+.caja h2 {
+    color: #fff;
+}
+.caja p{
+    color: #fff;
+}
+.caja hr{
+    width: 30%;
+    color: white;
+    margin-left: 440px;
+}
+.boton {
+    color: rgb(69, 71, 73);
+    background-color: #eceaea;
+    width: 30%;
+    height: 60px;
+    margin: 20px;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+.caja1{
+    background-color: #f1f1f1;
+    text-align: center;
+    height: 150px;
+    
+}
+.caja1 hr{
+    width: 20%;
+}
+.caja1 h1{
+    color: black;
+}
+.contenedor {
+    display: flex;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px black;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 250px;
+    grid-gap: 15px;
+    padding: 10px 0;
+  }
+  .contenedor > div {
+    background-color: #fff;
+    color: chocolate;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+  }
+.parrafo{
+    color: rgb(26, 25, 25);
+}
+@media (max-width:900px){
+    .contenedor{
+        flex-direction: column;
+    }
+    .link{
+        flex-direction: column;
+    }
+    .link1{
+        padding-left: 20px;
+        font-size: 13px;
+    }
+}
+.parrafo{
+    padding: 3px;
+}
+  .conta{
+    background-color: #ffffff;
+    text-align: center;
+    height: 300px;
+    padding: 50px;
+}
+
+.link {
+    display: flex;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px black;
+  }
+  .link1 {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    text-align: left;
+    line-height: 25px;
+    font-size: 15px;
+}
+.link1 img{
+    padding: 20px;
+    width: 180px;
+}
+.link1 p{
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.link1  em{
+    color: rgb(190, 186, 186);
+}
+.link a{
+    color: #888484;
+}
+<nav class="menu">
+<ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="#re">Requisito</a></li>
+    <li><a href="menu4.html">Preguntas Frecuentes</a></li>
+    <li><a href="menu2.html">Consultas</a></li>
+    <li><a href="menu5.html">Mis solicitudes</a></li>
+</ul>
+</nav>
